@@ -1,12 +1,150 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML Academy: Седона</title>
+    </head>
+    <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+    <header class="main_header">
+        <nav class="main_navigation">
+            <img class="main_navigation_logo" src="http://placehold.it/150x100" alt="логотип Седоно" >
+            <ul>
+                <li><a href="nogo#">информация</a></li>
+                <li><a href="nogo#">фото и видео</a></li>
+                <li><a href="nogo#">карта штата</a></li>
+                <li><a href="nogo#">гостиницы</a></li>
+            </ul>
+        </nav>
+        <section class="intro_block">
+            <h1>sedona</h1>
+            <p>седона - небольшой городок в аризоне, заслуживающий большего!</p>
+            <p>рассмотрим 5 причин, по которым седона круче, чем гранд каньон</p>
+        </section>
+    </header>
 
-  </body>
+
+
+    <main class="main_content">
+
+        <section class="real_town">
+            <div class="real_town_text one_third">
+                <h4>настоящий городок</h4>
+                <p>- №1 -</p>
+                <p>седона - не аттракцион для туристов, там течет своя жизнь</p>
+            </div>
+            <div class="real_town_photo">
+                <img src="http://placehold.it/150x100" alt="уличное фото, Седона">
+            </div>
+        </section>
+
+        <section class="advantages">
+            <!--Inserted for vallidation. Need to make it hidden in CSS-->
+            <h3 class="gag">! DISPLAY: NONE !</h3>
+            <!---->
+
+            <div class="habitation one_third">
+                <b>жилье</b>
+                <p>рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+            </div>
+            <div class="food one_third">
+                <b>еда</b>
+                <p>всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+            </div>
+            <div class="souvenirs one_third">
+                <b>сувениры</b>
+                <p>не только китайского, но и местного производства!</p>
+            </div>
+        </section>
+
+        <section class="devil_bridge">
+            <div class="devil_bridge_photo">
+                <img src="http://placehold.it/150x100" alt="мост дьявола, Седона">
+            </div>
+            <div class="devil_bridge_text one_third">
+                <h4>там есть мост дьявола</h4>
+                <p>- №2 -</p>
+                <p>да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            </div>
+        </section>
+
+        <section class="other_reasons">
+            <div class="other_reasons_text one_third">
+                <h4>небольшая площадь</h4>
+                <p>- №3 -</p>
+                <p>ВСЕ достопримечательности находятся очень близко</p>
+            </div>
+            <div class="other_reasons_text one_third">
+                <h4>красивая дорога</h4>
+                <p>- №4 -</p>
+                <p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+            </div>
+            <div class="other_reasons_text one_third">
+                <h4>мало туристов</h4>
+                <p>- №5 -</p>
+                <p>Большинство едет в гранд каньон и толпится там</p>
+            </div>
+        </section>
+
+        <section class="find_hotel">
+            <h2>заинтересовались?</h2>
+            <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+            <button>поиск гостиницы в седоне</button>
+            <div class="find_hotel_service">
+                <form class="find_hotel_form">
+                    <label for="arrive">дата заезда</label><input type="text" name="date" id="arrive"><div class="calendar_btn"></div>
+                    <label for="departure">дата выезда</label><input type="text" name="date" id="departure"><div class="calendar_btn"></div>
+
+                    <div class="adults_plus_minus">
+                        <label for="adults_number">взрослые:</label>
+                        <button>-</button>
+                        <input type="text" name="adults" id="adults_number" placeholder="0">
+                        <button>+</button>
+                    </div>
+
+
+                    <div class="children_plus_minus">
+                        <label for="children_number">дети:</label>
+                        <button>-</button>
+                        <input type="text" name="children" id="children_number" placeholder="0">
+                        <button>+</button>
+                    </div>
+
+                </form>
+                <div class="find_hotel_btn">
+                    <a href="nogo#">НАЙТИ</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="google_map">
+            <!--Inserted for vallidation. Need to make it hidden in CSS-->
+            <h3 class="gag">! DISPLAY: NONE !</h3>
+            <!---->
+
+            <!--temporary solution-->
+            <img src="http://placehold.it/150x100" alt="карта штата, отмечена Седона">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_hashtag one_third">
+            <b>#visitsedona</b>
+        </div>
+        <div class="footer_social one_third">
+            <div class="container">
+                <a class="social_btn twi_btn" href="">Twitter</a>
+                <a class="social_btn fb_btn" href="">Facebook</a>
+                <a class="social_btn you_btn" href="">Youtube</a>
+            </div>
+        </div>
+        <div class="footer_copyright one_third">
+            <div class="container">
+                <span>website by</span>
+                <div class="dev_logo"></div>
+            </div>
+        </div>
+    </footer>
+
+    </body>
 </html>
