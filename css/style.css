@@ -1,3 +1,4 @@
+/*COMMON STYLES*/
 
 body {
     font-size: 14px;
@@ -17,15 +18,62 @@ h4 {
     font-family: "PTSans";
 }
 
-.main_header {
-    min-height: 780px;
-    outline: dotted #407bff;
-}
 
 .main_navigation {
     height: 55px;
     outline: dashed red;
 }
+
+.main_navigation_list li {
+    display: inline-block;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.gag {
+    display: none;
+}
+
+.footer {
+    height: 120px;
+    outline: dashed fuchsia;
+    z-index: 2;
+}
+
+.footer_hashtag,
+.footer_social,
+.footer_copyright
+{
+    float: left;
+    width: 240px;
+    height: inherit;
+    outline: auto;
+}
+.footer_social {
+    width: 400px;
+    margin: 0 83px;
+}
+.footer_hashtag {
+    margin-left: 73px;
+}
+.footer_copyright {
+    margin-right: 73px;
+}
+
+/*---------------------------*/
+
+
+/* INDEX styles*/
+
+.main_header {
+    min-height: 780px;
+    outline: dotted #407bff;
+}
+
 .intro_block {
     height: 725px;
     outline: dotted #f6ff29;
@@ -45,12 +93,6 @@ h4 {
     height: 255px;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear:both;
-}
-
 .real_town {
     outline: auto;
 }
@@ -68,9 +110,6 @@ h4 {
     display: block;
 }
 
-.gag {
-    display: none;
-}
 .advantages {
     height: 330px;
 }
@@ -129,28 +168,106 @@ h4 {
 
 }
 
-.footer {
-    height: 120px;
-    outline: dashed fuchsia;
-    z-index: 2;
+/*---------------------------*/
+
+
+/* INNER (hotels) styles*/
+.main_header_inner {
+    height: auto;
+    outline: dotted #407bff;
 }
 
-.footer_hashtag,
-.footer_social,
-.footer_copyright
-{
+.inner_content {
+    height: 758px;
+    outline: dotted coral;
+}
+
+
+.filter {
+    height: 215px;
+    outline: auto;
+}
+
+.infrastructure,
+.habitation_type {
     float: left;
     width: 240px;
     height: inherit;
-    outline: auto;
+    outline: dotted chartreuse;
 }
-.footer_social {
-    width: 400px;
-    margin: 0 83px;
+
+.infrastructure {
+    margin-left: 72px;
 }
-.footer_hashtag {
-    margin-left: 73px;
+
+.price_show {
+    float: right;
+    width: 330px;
+    height: inherit;
+    margin-right: 72px;
+    outline: dotted chartreuse;
 }
-.footer_copyright {
-    margin-right: 73px;
+
+.results {
+    padding-top: 1px;
+    padding-left: 72px;
+    padding-right: 72px;
+    height: 537px;
+    outline: dotted coral;
+}
+
+.results_sorting {
+    height: 84px;
+    outline: dashed cornflowerblue;
+}
+.results_sorting_left {
+    float: left;
+    height: inherit;
+    outline: dashed;
+}
+.results_sorting_left>h4,
+.results_sorting_list,
+.results_sorting_list li{
+    display: inline-block;
+}
+
+.sort_up_down {
+    float: right;
+    height: inherit;
+    outline: dashed;
+}
+
+.results>article {
+    outline: dashed fuchsia;
+    height: 150px;
+}
+
+.habitation_result_info {
+    float: left;
+    width: 528px;
+    height: inherit;
+    outline: dotted chartreuse;
+}
+
+.preview {
+    float: left;
+}
+
+.book {
+    float: left;
+    margin-left: 27px;
+}
+
+
+
+.habitation_result_rate {
+    float: right;
+    width: 240px;
+    height: inherit;
+    outline: dotted chartreuse;
+    text-align: right;
+}
+
+.stars li {
+    display: inline-block;
 }
