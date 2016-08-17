@@ -1,9 +1,12 @@
+
 body {
     font-size: 14px;
     line-height: 26px;
     color: #000000;
     font-weight: bold;
     font-family: "PTSans";
+    width: 1200px;
+    margin: 0 auto;
 }
 
 h4 {
@@ -12,4 +15,141 @@ h4 {
     color: #000000;
     font-weight: bold;
     font-family: "PTSans";
+}
+
+.main_header {
+    min-height: 780px;
+    outline: dotted #407bff;
+}
+
+.main_navigation {
+    height: 55px;
+    outline: dashed red;
+}
+.intro_block {
+    height: 725px;
+    outline: dotted #f6ff29;
+}
+
+.main_content {
+    height: 1860px;
+    outline: dotted coral;
+}
+
+.one_third {
+    width: 400px;
+    outline: dashed #17f7ff;
+}
+
+.height_255 {
+    height: 255px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.real_town {
+    outline: auto;
+}
+
+.real_town_text {
+    height: inherit;
+    float: left;
+}
+.real_town_photo {
+    float: left;
+    width: 800px;
+    outline: dashed chartreuse;
+}
+.real_town_photo>img {
+    display: block;
+}
+
+.gag {
+    display: none;
+}
+.advantages {
+    height: 330px;
+}
+.habitation, .food, .souvenirs {
+    height: inherit;
+    float: left;
+}
+.devil_bridge {
+    outline: auto;
+}
+.devil_bridge_photo {
+    float: left;
+    height: inherit;
+}
+.devil_bridge_photo>img {
+    display: block;
+}
+.devil_bridge_text {
+    float:right;
+    height: inherit;
+}
+.other_reasons {
+    outline: dashed mediumvioletred;
+}
+
+.other_reasons_text {
+    height: inherit;
+    float: left;
+}
+
+.find_hotel {
+    height: 290px;
+    outline: auto;
+    position: relative;
+}
+
+.find_hotel_service {
+    position:absolute;
+    width: 570px;
+    top: 294px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+.google_map {
+    height: 475px;
+    position: relative;
+    outline: dashed chartreuse;
+}
+.google_map>img {
+    width: inherit;
+    display: block;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.footer {
+    height: 120px;
+    outline: dashed fuchsia;
+    z-index: 2;
+}
+
+.footer_hashtag,
+.footer_social,
+.footer_copyright
+{
+    float: left;
+    width: 240px;
+    height: inherit;
+    outline: auto;
+}
+.footer_social {
+    width: 400px;
+    margin: 0 83px;
+}
+.footer_hashtag {
+    margin-left: 73px;
+}
+.footer_copyright {
+    margin-right: 73px;
 }
