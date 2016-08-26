@@ -313,9 +313,39 @@ body {
 }
 
 .other_reasons_text {
-    height: inherit;
+    min-height: inherit;
+    background-color: #eeeeee;
+    text-align: center;
     float: left;
 }
+
+.other_reasons_text>h4 {
+    margin: 0 auto;
+    margin-top: 47px;
+    margin-bottom: 24px;
+    width: 150px;
+    font-size: 21px;
+    line-height: 21px;
+    font-family: pt_sansbold;
+}
+
+.other_reasons_text>p {
+    margin: 0 auto;
+    line-height: 21px;
+    margin-bottom: 21px;
+}
+
+.other_reasons_text:nth-child(1)>p {
+    width: 230px;
+}
+.other_reasons_text:nth-child(2)>p {
+    width: 275px;
+}
+.other_reasons_text:nth-child(3)>p {
+    width: 275px;
+}
+
+
 
 .find_hotel {
     height: 289px;
