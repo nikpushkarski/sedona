@@ -137,9 +137,19 @@ body {
 }
 
 .footer {
-    height: 120px;
-    outline: dashed fuchsia;
+    position: relative;
+    /*outline: dashed fuchsia;*/
     z-index: 2;
+}
+
+.footer:before {
+    position: absolute;
+    content:"";
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background-color: #ffffff;
+    z-index: -1;
 }
 
 .footer_hashtag,
@@ -151,15 +161,63 @@ body {
     height: inherit;
     outline: auto;
 }
+
 .footer_social {
     width: 400px;
-    margin: 0 83px;
+    margin: 0 87px;
 }
 .footer_hashtag {
     margin-left: 73px;
 }
 .footer_copyright {
     margin-right: 73px;
+}
+
+.footer_hashtag {
+    text-align: center;
+    font-size: 21px;
+    font-family: "pt_sansbold";
+    line-height: 120px;
+}
+
+.footer_hashtag>a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer_social>.container {
+    width: 150px;
+    margin: 0 auto;
+    line-height: 120px;
+    font-size: 0;
+}
+
+.social_btn {
+    display: inline-block;
+    vertical-align: middle;
+    width: 46px;
+    height: 48px;
+    background-color: #81b3d2;
+    margin-right: 6px;
+}
+
+.you_btn {
+    margin-right: 0;
+}
+
+.footer_copyright>.container {
+    width: 210px;
+    padding-left: 15px;
+    line-height: 120px;
+}
+
+.dev_logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 113px;
+    height: 40px;
+    background: url("../img/dev_logo.png");
 }
 
 /*---------------------------*/
@@ -410,12 +468,11 @@ body {
     outline: dashed chartreuse;
 }
 .google_map>img {
+    position: absolute;
     width: inherit;
     display: block;
-    position: absolute;
-    z-index: -1;
-
 }
+
 
 /*---------------------------*/
 
