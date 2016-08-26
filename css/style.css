@@ -195,12 +195,6 @@ body {
     margin: 0 auto;
 }
 
-
-
-
-
-
-
 .main_content {
     height: 1860px;
     outline: dotted coral;
@@ -212,33 +206,93 @@ body {
 }
 
 .height_255 {
-    height: 255px;
+    min-height: 255px;
 }
 
 .real_town {
     outline: auto;
 }
 
-.real_town_text {
-    height: inherit;
+.real_town_text,
+.devil_bridge_text {
+    min-height: inherit;
     float: left;
+    background-color: #81b3d2;
+    color: #ffffff;
+    text-align: center;
 }
+
+.real_town_text>h4,
+.devil_bridge_text>h4 {
+    font-size: 21px;
+    line-height: 21px;
+    font-family: "pt_sansbold";
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 54px;
+    margin-bottom: 24px;
+}
+
+.real_town_text>p,
+.devil_bridge_text>p {
+    font-size: 14px;
+    line-height: 21px;
+    width: 310px;
+    margin: 0 auto;
+    margin-bottom: 21px;
+}
+
 .real_town_photo {
     float: left;
     width: 800px;
+    height: 256px;
     outline: dashed chartreuse;
 }
+
 .real_town_photo>img {
     display: block;
 }
 
-.advantages {
-    height: 330px;
-}
-.habitation, .food, .souvenirs {
-    height: inherit;
+.advantages>div {
+    min-height: 168px;
     float: left;
+    text-align: center;
+    padding-top: 162px;
 }
+
+.advantages b {
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.advantages p {
+    margin: 0 auto;
+    margin-top: 18px;
+    line-height: 21px;
+}
+
+.habitation>p {
+    width: 270px;
+}
+
+.food>p,
+.souvenirs>p {
+    width: 300px;
+}
+
+.habitation {
+    background: url("../img/habitation.png") no-repeat 162px 60px;
+}
+
+.food {
+    background: url("../img/food.png") no-repeat 163px 61px;
+}
+
+.souvenirs {
+    background: url("../img/souvenirs.png") no-repeat 167px 56px;
+}
+
+
 .devil_bridge {
     outline: auto;
 }
@@ -251,8 +305,9 @@ body {
 }
 .devil_bridge_text {
     float:right;
-    height: inherit;
 }
+
+
 .other_reasons {
     outline: dashed mediumvioletred;
 }
