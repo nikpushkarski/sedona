@@ -292,13 +292,13 @@ body {
     background: url("../img/souvenirs.png") no-repeat 167px 56px;
 }
 
-
 .devil_bridge {
     outline: auto;
 }
 .devil_bridge_photo {
     float: left;
-    height: inherit;
+    width: 800px;
+    height: 256px;
 }
 .devil_bridge_photo>img {
     display: block;
