@@ -49,6 +49,11 @@
 
 /*COMMON STYLES*/
 
+html {
+    background-color: #f2f2f2;
+}
+
+
 body {
     font-size: 14px;
     line-height: 26px;
@@ -56,6 +61,7 @@ body {
     font-family: "pt_sansregular";
     width: 1200px;
     margin: 0 auto;
+    box-shadow: 0 0 15px 5px grey;
 }
 
 h4 {
@@ -68,13 +74,65 @@ h4 {
 
 
 .main_navigation {
-    height: 55px;
     outline: dashed red;
+    position: relative;
+    width: 88%;
+    margin: 0 auto;
 }
 
-.main_navigation_list li {
-    display: inline-block;
+.main_navigation_logo {
+    position: absolute;
+    width: 138px;
+    height: 70px;
+    
+    left: 50%;
+    margin-left: -69px;
 }
+
+.main_navigation_list {
+    margin: 0;
+    padding: 0;
+}
+
+.main_navigation_list>li {
+    display: inline-block;
+    line-height: 26px;
+    padding: 15px 0;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "pt_sansbold";
+}
+
+.main_navigation_list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.main_navigation_list a:hover {
+    color: #81b3d2;
+}
+
+.main_navigation_list a:active {
+    opacity: 0.3;
+}
+
+
+
+
+
+.main_navigation_list>li:nth-child(1),
+.main_navigation_list>li:nth-child(2) {
+    float: left;
+}
+
+.main_navigation_list>li:nth-child(3),
+.main_navigation_list>li:nth-child(4){
+    float: right;
+}
+
+
 
 .clearfix:after {
     content: "";
