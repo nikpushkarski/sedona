@@ -385,9 +385,19 @@ body {
     margin-left: -284px;
 }
 
+.show_hotel_form:hover {
+    background-color: #a78d7d;
+
+}
+
+.show_hotel_form:active {
+    box-shadow: inset 0 0 8px 2px #ffffff;
+}
+
 
 .find_hotel_service {
     position:absolute;
+    display: none;
     width: 570px;
     top: 294px;
     left: 50%;
