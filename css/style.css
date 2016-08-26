@@ -348,11 +348,43 @@ body {
 
 
 .find_hotel {
-    height: 289px;
+    min-height: 290px;
     padding-top: 1px;
     outline: auto;
     position: relative;
+    text-align: center;
 }
+
+.find_hotel>h2 {
+    font-size: 30px;
+    line-height: 24px;
+    font-family: "pt_sansbold";
+    margin-top: 57px;
+    margin-bottom: 29px;
+}
+
+.find_hotel>p {
+    width: 460px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+
+.show_hotel_form {
+    position: absolute;
+    text-decoration: none;
+    width: 568px;
+    height: 86px;
+    background-color: #766357;
+    text-align: center;
+    line-height: 86px;
+    color: #ffffff;
+    font-size: 21px;
+    font-family: pt_sansbold;
+    bottom: 0;
+    left: 50%;
+    margin-left: -284px;
+}
+
 
 .find_hotel_service {
     position:absolute;
