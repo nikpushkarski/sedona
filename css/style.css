@@ -486,20 +486,26 @@ body {
 
 /* INNER (hotels) styles*/
 .main_header_inner {
-    height: auto;
-    /*outline: dotted #407bff;*/
+    min-height: 56px;
 }
 
 .inner_content {
-    height: 758px;
-    /*outline: dotted coral;*/
-    background: url("../img/filter_bg.jpg") no-repeat;
+    min-height: 758px;
 }
 
 
 .filter {
-    height: 215px;
-    outline: auto;
+    min-height: 217px;
+    background: url("../img/filter_bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.filter>div {
+    padding-top: 24px;
+}
+
+.filter form {
+    margin-top: 23px;
 }
 
 .infrastructure,
@@ -513,6 +519,54 @@ body {
 .infrastructure {
     margin-left: 72px;
 }
+
+.infrastructure>b,
+.habitation_type>b {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "pt_sansbold";
+    color: #ffffff;
+}
+
+
+.habitation_type {
+    padding-left: 16px;
+}
+
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"] + label {
+    display: block;
+    position: relative;
+    /*margin: 10px 0;*/
+    margin-bottom: 24px;
+    padding-left: 40px;
+    line-height: 21px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input[type="checkbox"] + label:before {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url("../img/checkbox_unchecked.png") no-repeat;
+    position:absolute;
+    left: 0;
+    top:0;
+}
+
+input[type="checkbox"]:checked + label:before {
+    width: 26px;
+    height: 22px;
+    background: url("../img/checkbox_checked.png") no-repeat;
+}
+
+
 
 .price_show {
     float: right;
