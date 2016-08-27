@@ -487,12 +487,13 @@ body {
 /* INNER (hotels) styles*/
 .main_header_inner {
     height: auto;
-    outline: dotted #407bff;
+    /*outline: dotted #407bff;*/
 }
 
 .inner_content {
     height: 758px;
-    outline: dotted coral;
+    /*outline: dotted coral;*/
+    background: url("../img/filter_bg.jpg") no-repeat;
 }
 
 
