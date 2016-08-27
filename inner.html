@@ -52,16 +52,20 @@
             </div>
             <div class="price_show">
                 <b>стоимость в сутки (р):</b>
-                <div class="price_range">
-                    <div class="price_range_from">от 0</div>
-                    <div class="price_range_to">до 3000</div>
-                    <div class="price_slider">
-                        <div class="price_slider_line"></div>
-                        <a href="" class="price_handler"></a>
-                        <a href="" class="price_handler"></a>
+                <div class="price_controls">
+                    <div class="price_range">
+                        <label class="min-price" for="">от<input type="text" name="min-price" value="0"></label>
+                        <label class="max-price" for="">до<input type="text" name="max-price" value="3000"></label>
                     </div>
-                    <a class="show_variants" href="#nogo" ></a>
+                    <div class="price_slider">
+                        <div class="scale">
+                            <div class="bar"></div>
+                        </div>
+                        <div class="price_handler price_handler_min"></div>
+                        <div class="price_handler price_handler_max"></div>
+                    </div>
                 </div>
+                <a class="show_variants" href="#nogo" ></a>
             </div>
 
         </section>
