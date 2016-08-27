@@ -529,7 +529,7 @@ body {
 
 
 .habitation_type {
-    padding-left: 16px;
+    padding-left: 14px;
 }
 
 
@@ -540,7 +540,6 @@ input[type="checkbox"] {
 input[type="checkbox"] + label {
     display: block;
     position: relative;
-    /*margin: 10px 0;*/
     margin-bottom: 24px;
     padding-left: 40px;
     line-height: 21px;
@@ -573,7 +572,82 @@ input[type="checkbox"]:checked + label:before {
     height: inherit;
     margin-right: 72px;
     outline: dotted chartreuse;
+    color: #ffffff;
 }
+
+.price_show>b {
+    font-size: 16px;
+    line-height: 21px;
+    font-family: "pt_sansbold";
+    padding-left: 3px;
+}
+
+.price_controls {
+    margin-top: 9px;
+}
+
+.price_range {
+    position: relative;
+    width: 314px;
+    height: 32px;
+    border: 2px solid #ffffff;
+    margin-left: 12px;
+    border-radius: 2px;
+    font-size: 0;
+}
+
+.price_range:before {
+    position: absolute;
+    background: #ffffff;
+    content: "";
+    width: 2px;
+    height: 22px;
+    top: 50%;
+    left: 50%;
+    margin-left: -1px;
+    margin-top: -11px;
+}
+
+.min-price,
+.max-price {
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 32px;
+    width: 80px;
+    padding-left: 65px;
+}
+
+.price_range input {
+    width: 50px;
+    margin: 0;
+    background: none;
+    outline: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+}
+
+
+.price_slider {
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.price_slider .scale {
+    height: 2px;
+    background: rgba(255, 255, 255, 0.3);
+    width: 318px;
+    margin-left: 12px;
+}
+
+.price_slider .bar {
+    height: 2px;
+    background: #ffffff;
+    width: 80%;
+}
+
 
 .results {
     padding-top: 1px;
