@@ -734,10 +734,57 @@ input[type="checkbox"]:checked:disabled + label:before {
     outline: dashed;
 }
 .results_sorting_left>h4,
+.results_sorting_left>span,
 .results_sorting_list,
 .results_sorting_list li{
     display: inline-block;
+
 }
+
+.results_sorting_list {
+    margin: 0;
+    padding: 0;
+    margin-left: 36px;
+}
+
+.results_sorting_left>h4 {
+    font-size: 21px;
+    line-height: 28px;
+    font-family: "pt_sansbold";
+    margin-right: 43px;
+}
+
+.results_sorting_left>span,
+.results_sorting_list a
+{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.results_sorting_left li {
+    margin-right: 30px;
+}
+
+.results_sorting_left a {
+    text-decoration: none;
+    border-bottom: 1px dotted #81b3d2;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.results_sorting_left .current_sort {
+    color: #81b3d2;
+    border: none;
+}
+
+.results_sorting_left a:hover {
+    color: #81b3d2;
+}
+
+.results_sorting_left a:active {
+    color: #000000;
+    border: none;
+}
+
 
 .sort_up_down {
     float: right;
