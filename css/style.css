@@ -93,6 +93,18 @@ body {
     opacity: 0.3;
 }
 
+.main_navigation_list .current_page {
+    color: #766357;
+}
+
+.main_navigation_list .current_page:hover {
+    color: #604e43;
+}
+
+.main_navigation_list .current_page:active {
+    opacity: 0.3;
+}
+
 .main_navigation_list>li:nth-child(1),
 .main_navigation_list>li:nth-child(2) {
     float: left;
@@ -564,6 +576,15 @@ input[type="checkbox"]:checked + label:before {
     background: url("../img/checkbox_checked.png") no-repeat;
 }
 
+input[type="checkbox"]:disabled + label:before {
+    background: url("../img/checkbox_unchecked_disabled.png");
+}
+
+input[type="checkbox"]:checked:disabled + label:before {
+    width: 26px;
+    height: 22px;
+    background: url("../img/checkbox_checked_disabled.png");
+}
 
 
 .price_show {
@@ -571,7 +592,6 @@ input[type="checkbox"]:checked + label:before {
     width: 330px;
     height: inherit;
     margin-right: 72px;
-    outline: dotted chartreuse;
     color: #ffffff;
 }
 
@@ -584,6 +604,7 @@ input[type="checkbox"]:checked + label:before {
 
 .price_controls {
     margin-top: 9px;
+    margin-left: 12px;
 }
 
 .price_range {
@@ -591,7 +612,6 @@ input[type="checkbox"]:checked + label:before {
     width: 314px;
     height: 32px;
     border: 2px solid #ffffff;
-    margin-left: 12px;
     border-radius: 2px;
     font-size: 0;
 }
@@ -633,13 +653,14 @@ input[type="checkbox"]:checked + label:before {
 .price_slider {
     margin-top: 20px;
     margin-bottom: 32px;
+    position: relative;
 }
 
 .price_slider .scale {
     height: 2px;
     background: rgba(255, 255, 255, 0.3);
     width: 318px;
-    margin-left: 12px;
+
 }
 
 .price_slider .bar {
@@ -647,6 +668,52 @@ input[type="checkbox"]:checked + label:before {
     background: #ffffff;
     width: 80%;
 }
+
+.price_handler {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    background: #ababab;
+    cursor: pointer;
+    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.14);
+    top: -9px;
+}
+
+.price_handler_min {
+    left: 0;
+}
+
+.price_handler_max {
+    left: 80%;
+}
+
+.price_handler:hover {
+    background: #1e5081;
+}
+
+.price_show .btn_show_variants {
+    display: block;
+    background: none;
+    width: 133px;
+    height: 32px;
+    margin: 0 auto;
+    border: 2px solid #f7f6f6;
+    border-radius: 2px;
+    /*font-size: 14px;*/
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.price_show .btn_show_variants:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
 
 
 .results {
