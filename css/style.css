@@ -257,15 +257,15 @@ body {
     margin-left: 5px;
     width: 113px;
     height: 40px;
-    background: url("../img/dev_logo.png");
+    content: url("../img/dev_logo.png");
 }
 
 .dev_logo:hover {
-    background: url("../img/dev_logo_hvr.png");
+    content: url("../img/dev_logo_hvr.png");
 }
 
 .dev_logo:active {
-    background: url("../img/dev_logo_active.png");
+    content: url("../img/dev_logo_active.png");
 }
 /*---------------------------*/
 
