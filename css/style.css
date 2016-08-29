@@ -299,7 +299,7 @@ body {
 }
 
 .main_content {
-    min-height: 1862px;
+    min-height: 1860px;
 }
 
 .one_third {
@@ -495,7 +495,8 @@ body {
     font-family: "pt_sansbold";
 }
 
-.find_hotel_form>label {
+.find_hotel_form>div:nth-child(1),
+.find_hotel_form>div:nth-child(2){
     display: block;
     position: relative;
     margin-bottom: 30px;
@@ -541,6 +542,7 @@ input.date,
     font-size: inherit;
     line-height: inherit;
     font-family: inherit;
+    text-transform: inherit;
 }
 
 input.date:hover,
@@ -669,7 +671,7 @@ input.date:focus,
 
 
 .google_map {
-    height: 475px;
+    height: 473px;
     position: relative;
 }
 .google_map>img {
