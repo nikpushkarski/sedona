@@ -521,6 +521,22 @@ input.date,
     font-family: inherit;
 }
 
+input.date:hover,
+.adults_input>input:hover,
+.children_input>input:hover {
+    background-color: #ebebeb;
+}
+
+input.date:focus,
+.adults_input>input:focus,
+.children_input>input:focus {
+    background-color: #ffffff;
+    box-shadow: inset 0 0 0 2px #e5e5e5;
+}
+
+
+
+
 .adults_input>input,
 .children_input>input {
     width: 38px;
