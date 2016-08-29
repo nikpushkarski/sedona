@@ -135,6 +135,8 @@ body {
     content:"";
     width: 100%;
     height: 100%;
+    left: 0;
+    top: 0;
     opacity: 0.9;
     background-color: #ffffff;
     z-index: -1;
@@ -257,16 +259,16 @@ body {
     margin-left: 5px;
     width: 113px;
     height: 40px;
-    content: url("../img/dev_logo.png");
+    background: url("../img/dev_logo.png") no-repeat;
 }
 
 
 .dev_logo:hover {
-    content: url("../img/dev_logo_hvr.png");
+    background: url("../img/dev_logo_hvr.png") no-repeat;
 }
 
 .dev_logo:active {
-    content: url("../img/dev_logo_active.png");
+    background: url("../img/dev_logo_active.png") no-repeat;
 }
 /*---------------------------*/
 
@@ -485,7 +487,7 @@ body {
     margin-left: -284px;
     z-index: 1;
     text-align: left;
-    font-family: "pt_sansbold", , "Arial", sans-serif;
+    font-family: "pt_sansbold", "Arial", sans-serif;
     box-shadow: 0 0 5px 2px rgba(0, 1, 1, 0.15);
 }
 
@@ -826,6 +828,7 @@ input[type="checkbox"]:checked:disabled + label:before {
 
 .price_range input {
     width: 50px;
+    height: 32px;
     margin: 0;
     background: none;
     outline: none;
