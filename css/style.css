@@ -260,6 +260,7 @@ body {
     content: url("../img/dev_logo.png");
 }
 
+
 .dev_logo:hover {
     content: url("../img/dev_logo_hvr.png");
 }
@@ -661,6 +662,7 @@ input.date:focus,
     color: #ffffff;
     font-size: 21px;
     margin-top: 55px;
+    outline: none;
 }
 
 .find_hotel_btn:hover {
