@@ -975,7 +975,7 @@ input[type="checkbox"]:checked:disabled + label:before {
     margin-left: 30px;
 }
 
-.book a {
+.book .book_name {
     font-size: 21px;
     font-family: "pt_sansbold";
     margin-top: 0;
@@ -984,11 +984,11 @@ input[type="checkbox"]:checked:disabled + label:before {
     color: #000000;
 }
 
-.book a:hover {
+.book .book_name:hover {
     color: #81b3d2;
 }
 
-.book a:active {
+.book .book_name:active {
     color: rgba(0, 0, 0, 0.3);
 }
 
@@ -1027,6 +1027,29 @@ input[type="checkbox"]:checked:disabled + label:before {
     background-color: #766357;
     width: 142px;
 }
+
+.book .more_info:hover {
+    background-color: #669ec0;
+}
+
+.book .more_info:active {
+    background-color: #5496bd;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.book .book_btn:hover {
+    background-color: #604e43;
+}
+
+.book .book_btn:active {
+    background-color: #503e33;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
 
 .habitation_result_rate {
     float: right;
