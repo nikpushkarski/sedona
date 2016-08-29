@@ -731,7 +731,6 @@ input[type="checkbox"]:checked:disabled + label:before {
 .results_sorting_left {
     float: left;
     height: inherit;
-    outline: dashed;
 }
 .results_sorting_left>h4,
 .results_sorting_left>span,
@@ -789,14 +788,71 @@ input[type="checkbox"]:checked:disabled + label:before {
 .sort_up_down {
     float: right;
     height: inherit;
-    outline: dashed;
+    font-size: 0;
 }
+
+.sort_up_down>a {
+    display: inline-block;
+    text-decoration: none;
+    background: url("../img/inner_page_sprite.png");
+    margin-left: 12px;
+    margin-top: 39px;
+}
+
+.sort_up_down .arrow_up {
+    width: 11px;
+    height: 10px;
+    background-position: -68px -5px;
+}
+
+.sort_up_down .arrow_up:hover {
+    width: 11px;
+    height: 10px;
+    background-position: -110px -5px;
+}
+
+.sort_up_down .arrow_up:active {
+    width: 11px;
+    height: 10px;
+    background-position: -89px -5px;
+}
+
+.sort_up_down .arrow_down {
+    width: 11px;
+    height: 10px;
+    background-position: -5px -5px;
+}
+
+.sort_up_down .arrow_down:hover {
+    width: 11px;
+    height: 10px;
+    background-position: -47px -5px;
+}
+
+.sort_up_down .arrow_down:active {
+    width: 11px;
+    height: 10px;
+    background-position: -26px -5px;
+}
+
+.sort_up_down .arrow_current_down {
+    width: 11px;
+    height: 10px;
+    background-position: -26px -5px;
+}
+
+.sort_up_down .arrow_current_up {
+    width: 11px;
+    height: 10px;
+    background-position: -89px -5px;
+}
+
+
 
 .results>article {
     outline: dashed fuchsia;
     height: 150px;
 }
-
 .habitation_result_info {
     float: left;
     width: 528px;
