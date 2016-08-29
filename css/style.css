@@ -693,7 +693,7 @@ input[type="checkbox"]:checked:disabled + label:before {
     background: #1e5081;
 }
 
-.price_show .btn_show_variants {
+.price_show .show_variants_btn {
     display: block;
     background: none;
     width: 133px;
@@ -708,7 +708,7 @@ input[type="checkbox"]:checked:disabled + label:before {
     color: #ffffff;
 }
 
-.price_show .btn_show_variants:hover {
+.price_show .show_variants_btn:hover {
     background-color: #ffffff;
     color: #000000;
 }
@@ -718,15 +718,15 @@ input[type="checkbox"]:checked:disabled + label:before {
 
 .results {
     padding-top: 1px;
-    padding-left: 72px;
-    padding-right: 72px;
     height: 537px;
     outline: dotted coral;
 }
 
 .results_sorting {
     height: 84px;
-    outline: dashed cornflowerblue;
+    padding-left: 72px;
+    padding-right: 72px;
+    border-bottom: 1px solid #e5e5e5;
 }
 .results_sorting_left {
     float: left;
@@ -847,27 +847,78 @@ input[type="checkbox"]:checked:disabled + label:before {
     background-position: -89px -5px;
 }
 
-
-
-.results>article {
+.results .habitation_result {
     outline: dashed fuchsia;
-    height: 150px;
+    height: 124px;
+    padding-left: 72px;
+    padding-right: 72px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 26px;
 }
+
+
+
 .habitation_result_info {
     float: left;
     width: 528px;
     height: inherit;
     outline: dotted chartreuse;
+    font-size: 0;
 }
 
 .preview {
     float: left;
+    padding-top: 5px;
 }
 
 .book {
     float: left;
-    margin-left: 27px;
+    margin-left: 30px;
 }
+
+.book>h4 {
+    font-size: 21px;
+    font-family: "pt_sansbold";
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.book>span {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+
+.book .more_info,
+.book .book_btn {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+    min-height: 27px;
+    text-decoration: none;
+    margin-top: 7px;
+}
+
+.book .more_info {
+    background-color: #81b3d2;
+    width: 110px;
+    margin-right: 6px;
+}
+
+.book .book_btn {
+    background-color: #766357;
+    width: 142px;
+}
+
+
+
+
 
 
 
