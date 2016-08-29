@@ -493,6 +493,7 @@ body {
     z-index: 1;
     text-align: left;
     font-family: "pt_sansbold";
+    box-shadow: 0 0 5px 2px rgba(0, 1, 1, 0.15);
 }
 
 .find_hotel_form>div:nth-child(1),
@@ -650,6 +651,9 @@ input.date:focus,
 
 .find_hotel_btn {
     display: block;
+    border: none;
+    padding: 0;
+    width: 100%;
     text-align: center;
     text-decoration: none;
     line-height: 58px;
