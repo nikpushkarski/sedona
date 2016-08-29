@@ -434,8 +434,9 @@ body {
 }
 
 .find_hotel {
-    min-height: 290px;
+    min-height: 203px;
     padding-top: 1px;
+    padding-bottom: 86px;
     position: relative;
     text-align: center;
 }
@@ -478,14 +479,78 @@ body {
     box-shadow: inset 0 0 8px 2px #ffffff;
 }
 
+
 .find_hotel_service {
     position:absolute;
-    display: none;
-    width: 570px;
-    top: 294px;
+    padding-left: 58px;
+    padding-right: 55px;
+    padding-top: 55px;
+    width: 455px;
+    height: 340px;
+    background: #ffffff;
+    bottom: -395px;
     left: 50%;
-    margin-left: -250px;
+    margin-left: -284px;
+    z-index: 1;
+    text-align: left;
+    font-family: "pt_sansbold";
 }
+
+.find_hotel_form>label {
+    display: block;
+    position: relative;
+    margin-bottom: 25px;
+    padding-top: 8px;
+}
+
+input.date,
+.adults_input>input,
+.children_input>input{
+    float: right;
+    width: 296px;
+    height: 38px;
+    padding-right: 35px;
+    padding-left: 15px;
+    margin-top: -6px;
+    background-color: #f2f2f2;
+    outline: none;
+    border: none;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+}
+
+.adults_input>input,
+.children_input>input {
+    width: 114px;
+    padding:0;
+    padding-left: 20px;
+}
+
+.adults_plus_minus {
+    float: left;
+}
+
+.children_plus_minus {
+    float: right;
+}
+
+.adults_input:before,
+.children_input:before {
+    content:"";
+    display: inline;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+
+
+
+
+
 
 .google_map {
     height: 475px;

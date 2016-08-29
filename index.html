@@ -16,7 +16,7 @@
             <ul class="main_navigation_list">
                 <li><a href="#nogo">информация</a></li>
                 <li><a href="#nogo">фото и видео</a></li>
-                <li><a href="#nogo">гостиницы</a></li>
+                <li><a href="inner.html">гостиницы</a></li>
                 <li><a href="#nogo">карта штата</a></li>
             </ul>
         </nav>
@@ -93,23 +93,28 @@
             <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
             <a class="show_hotel_form" href="#nogo">поиск гостиницы в седоне</a>
             <div class="find_hotel_service">
-                <form class="find_hotel_form">
-                    <label for="arrive">дата заезда</label><input type="text" name="date" id="arrive"><div class="calendar_btn"></div>
-                    <label for="departure">дата выезда</label><input type="text" name="date" id="departure"><div class="calendar_btn"></div>
+                <form class="find_hotel_form clearfix" action="" method="post">
+                    <label class="clearfix" for="arrive">дата заезда
+                        <input class="date" type="text" name="date" id="arrive" placeholder="24 апреля 2016">
+                        <div class="calendar_btn"></div>
+                    </label>
+                    <label class="clearfix" for="departure">дата выезда
+                        <input class="date" type="text" name="date" id="departure" placeholder="4 июля 2016">
+                        <div class="calendar_btn"></div>
+                    </label>
 
                     <div class="adults_plus_minus">
                         <label for="adults_number">взрослые:</label>
-                        <button>-</button>
-                        <input type="text" name="adults" id="adults_number" placeholder="0">
-                        <button>+</button>
+                        <div class="adults_input">
+                            <input type="text" name="adults" id="adults_number" placeholder="0">
+                        </div>
                     </div>
-
 
                     <div class="children_plus_minus">
                         <label for="children_number">дети:</label>
-                        <button>-</button>
-                        <input type="text" name="children" id="children_number" placeholder="0">
-                        <button>+</button>
+                        <div class="children_input">
+                            <input type="text" name="children" id="children_number" placeholder="0">
+                        </div>
                     </div>
 
                 </form>
