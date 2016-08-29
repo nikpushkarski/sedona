@@ -146,18 +146,24 @@ body {
 {
     position: relative;
     float: left;
-    width: 240px;
-    height: inherit;
 }
+
+.footer_hashtag {
+    width: 255px;
+}
+
 
 .footer_social {
     width: 400px;
-    margin: 0 87px;
+    margin: 0 auto;
+    margin-left:72px;
 }
 .footer_hashtag {
     margin-left: 73px;
 }
 .footer_copyright {
+    float: right;
+    width: 240px;
     margin-right: 73px;
 }
 
