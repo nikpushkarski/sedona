@@ -126,10 +126,6 @@ body {
     clear:both;
 }
 
-.gag {
-    display: none;
-}
-
 .footer {
     position: relative;
     z-index: 2;
