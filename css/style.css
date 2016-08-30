@@ -1010,7 +1010,9 @@ input[type="checkbox"]:checked:disabled + label:before {
     background-position: -26px -5px;
 }
 
-.sort_up_down .arrow_current_down {
+.sort_up_down .arrow_current_down,
+.sort_up_down .arrow_current_down:hover,
+.sort_up_down .arrow_current_down:active {
     width: 11px;
     height: 10px;
     background-position: -26px -5px;
