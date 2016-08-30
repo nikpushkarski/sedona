@@ -501,8 +501,37 @@ body {
     box-shadow: 0 0 5px 2px rgba(0, 1, 1, 0.15);
 }
 
+@-webkit-keyframes opacity {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+@keyframes opacity {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
 .find_hotel_service_show {
 	display: block;
+	-webkit-animation: opacity 1.5s;
+	        animation: opacity 1.5s;
+}
+
+@-webkit-keyframes shake {
+	0%, 100% {-webkit-transform: translateX(0);transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-10px);transform: translateX(-10px);}
+	20%, 40%, 60%, 80% {-webkit-transform: translateX(10px);transform: translateX(10px);}
+}
+
+@keyframes shake {
+	0%, 100% {-webkit-transform: translateX(0);transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-10px);transform: translateX(-10px);}
+	20%, 40%, 60%, 80% {-webkit-transform: translateX(10px);transform: translateX(10px);}
+}
+
+.find_hotel_service_error {
+	-webkit-animation: shake 0.6s;
+	        animation: shake 0.6s;
 }
 
 .find_hotel_form>div:nth-child(1),
@@ -685,6 +714,13 @@ input.date:focus,
     width: 1200px;
 	background: #cadcaa url("../img/google_map.jpg") no-repeat;
 }
+
+.google_map>iframe {
+	position:absolute;
+	height: 593px;
+    width: 1200px;
+}
+
 
 /*---------------------------*/
 /* INNER (hotels) styles*/
