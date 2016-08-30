@@ -679,11 +679,12 @@ input.date:focus,
     position: relative;
 }
 
-.google_map>img {
-    position: absolute;
-    width: inherit;
+.google_map>.google_background {
+	position: absolute;
+	height: 593px;
+    width: 1200px;
+	background: #cadcaa url("../img/google_map.jpg") no-repeat;
 }
-
 
 /*---------------------------*/
 /* INNER (hotels) styles*/
