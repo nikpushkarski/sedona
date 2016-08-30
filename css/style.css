@@ -496,7 +496,7 @@ body {
     z-index: 1;
     text-align: left;
     font-family: "pt_sansbold", "Arial", sans-serif;
-    font-family: normal;
+    font-weight: normal;
     box-shadow: 0 0 5px 2px rgba(0, 1, 1, 0.15);
 }
 
