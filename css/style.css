@@ -83,6 +83,7 @@ body {
     width: 20%;
     text-align: center;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-weight: normal;
 }
 
 .main_navigation_list a {
@@ -175,6 +176,7 @@ body {
     text-align: center;
     font-size: 21px;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-weight: normal;
     line-height: 120px;
 }
 
@@ -287,6 +289,7 @@ body {
     font-size: 21px;
     line-height: 26px;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-weight: normal;
     margin: 0 auto;
     margin-top: 52px;
     margin-bottom: 28px;
@@ -324,6 +327,7 @@ body {
     font-size: 21px;
     line-height: 21px;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-weight: normal;
     width: 180px;
     margin: 0 auto;
     margin-top: 54px;
@@ -417,6 +421,7 @@ body {
     font-size: 21px;
     line-height: 21px;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-weight: normal;
 }
 
 .other_reasons_text>p {
@@ -449,6 +454,7 @@ body {
     font-size: 30px;
     line-height: 24px;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-weight: normal;
     margin-top: 57px;
     margin-bottom: 29px;
 }
@@ -470,6 +476,7 @@ body {
     color: #ffffff;
     font-size: 21px;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-weight: normal;
     bottom: 0;
     left: 50%;
     margin-left: -284px;
@@ -489,6 +496,7 @@ body {
     z-index: 1;
     text-align: left;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-family: normal;
     box-shadow: 0 0 5px 2px rgba(0, 1, 1, 0.15);
 }
 
@@ -719,6 +727,7 @@ input.date:focus,
     font-size: 16px;
     line-height: 21px;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-weight: normal;
     color: #ffffff;
 }
 
@@ -779,6 +788,7 @@ input[type="checkbox"]:checked:disabled + label:before {
     font-size: 16px;
     line-height: 21px;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-weight: normal;
     padding-left: 3px;
 }
 
@@ -923,6 +933,7 @@ input[type="checkbox"]:checked:disabled + label:before {
     font-size: 21px;
     line-height: 28px;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-weight: normal;
     margin-right: 43px;
 }
 
@@ -1049,6 +1060,7 @@ input[type="checkbox"]:checked:disabled + label:before {
 .book .book_name {
     font-size: 21px;
     font-family: "pt_sansbold", "Arial", sans-serif;
+    font-weight: normal;
     margin-top: 0;
     margin-bottom: 7px;
     text-decoration: none;
