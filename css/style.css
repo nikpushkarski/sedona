@@ -226,7 +226,7 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    background: #81b3d2 url("../img/social_sprite.png") no-repeat;
+    background: url("../img/social_sprite.png") no-repeat;
 }
 
 .twi_btn:before {
@@ -260,7 +260,7 @@ body {
     margin-left: 5px;
     width: 113px;
     height: 40px;
-    background: #ffffff url("../img/dev_logo.png") no-repeat;
+    background: url("../img/dev_logo.png") no-repeat;
 }
 
 .dev_logo:hover {
@@ -381,15 +381,15 @@ body {
 }
 
 .habitation {
-    background: #81b3d2 url("../img/habitation.png") no-repeat 162px 60px;
+    background: url("../img/habitation.png") no-repeat 162px 60px;
 }
 
 .food {
-    background: #81b3d2 url("../img/food.png") no-repeat 163px 61px;
+    background: url("../img/food.png") no-repeat 163px 61px;
 }
 
 .souvenirs {
-    background: #81b3d2 url("../img/souvenirs.png") no-repeat 167px 56px;
+    background: url("../img/souvenirs.png") no-repeat 167px 56px;
 }
 
 .devil_bridge_photo {
@@ -515,7 +515,7 @@ body {
     top: 7px;
     width: 21px;
     height: 22px;
-    background: #c2c2c2 url("../img/sprite_form.png") no-repeat;
+    background: url("../img/sprite_form.png") no-repeat;
     background-position: -238px -13px;
     cursor: pointer;
 }
@@ -607,7 +607,7 @@ input.date:focus,
     height: 38px;
     top: 0;
     left: 0;
-    background: #a9a9a9 url("../img/sprite_form.png") no-repeat;
+    background: url("../img/sprite_form.png") no-repeat;
     background-position: 1px 0;
     cursor: pointer;
 }
@@ -620,7 +620,7 @@ input.date:focus,
     height: 38px;
     top: 0;
     right: 0;
-    background: #a9a9a9 url("../img/sprite_form.png") no-repeat;
+    background: url("../img/sprite_form.png") no-repeat;
     background-position: -113px -4px;
     cursor: pointer;
 }
@@ -694,7 +694,7 @@ input.date:focus,
 .filter {
     min-height: 216px;
     padding-top: 1px;
-    background: #665754 url("../img/filter_bg.jpg") no-repeat;
+    background: url("../img/filter_bg.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -754,7 +754,7 @@ input[type="checkbox"] + label:before {
     display: block;
     width: 22px;
     height: 22px;
-    background: #f0f0f0 url("../img/checkbox_unchecked.png") no-repeat;
+    background: url("../img/checkbox_unchecked.png") no-repeat;
     position:absolute;
     left: 0;
     top:0;
@@ -763,17 +763,17 @@ input[type="checkbox"] + label:before {
 input[type="checkbox"]:checked + label:before {
     width: 26px;
     height: 22px;
-    background: #f0f0f0 url("../img/checkbox_checked.png") no-repeat;
+    background: url("../img/checkbox_checked.png") no-repeat;
 }
 
 input[type="checkbox"]:disabled + label:before {
-    background: #6a6a6a url("../img/checkbox_unchecked_disabled.png");
+    background: url("../img/checkbox_unchecked_disabled.png");
 }
 
 input[type="checkbox"]:checked:disabled + label:before {
     width: 26px;
     height: 22px;
-    background: #6a6a6a url("../img/checkbox_checked_disabled.png");
+    background: url("../img/checkbox_checked_disabled.png");
 }
 
 .price_show {
@@ -977,7 +977,7 @@ input[type="checkbox"]:checked:disabled + label:before {
     display: inline-block;
     vertical-align: baseline;
     text-decoration: none;
-    background: #cccccc url("../img/inner_page_sprite.png");
+    background: url("../img/inner_page_sprite.png");
     margin-left: 12px;
     margin-top: 39px;
 }
@@ -1145,7 +1145,7 @@ input[type="checkbox"]:checked:disabled + label:before {
 .stars li {
     display: inline-block;
     vertical-align: baseline;
-    background: #81b3d2 url("../img/inner_page_sprite.png");
+    background: url("../img/inner_page_sprite.png");
     width: 17px;
     height: 17px;
     background-position: -131px -5px;
