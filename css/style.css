@@ -484,6 +484,7 @@ body {
 
 .find_hotel_service {
     position:absolute;
+	display:none;
     padding-left: 55px;
     padding-right: 55px;
     padding-top: 55px;
@@ -498,6 +499,10 @@ body {
     font-family: "pt_sansbold", "Arial", sans-serif;
     font-weight: normal;
     box-shadow: 0 0 5px 2px rgba(0, 1, 1, 0.15);
+}
+
+.find_hotel_service_show {
+	display: block;
 }
 
 .find_hotel_form>div:nth-child(1),
@@ -694,7 +699,7 @@ input.date:focus,
 .filter {
     min-height: 216px;
     padding-top: 1px;
-    background: url("../img/filter_bg.jpg") no-repeat;
+    background: #75a3c7 url("../img/filter_bg.jpg") no-repeat;
     background-size: cover;
 }
 
