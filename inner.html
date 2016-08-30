@@ -28,27 +28,24 @@
             <!--Inserted for validation. Need to make it hidden in CSS-->
             <h3 class="gag">! DISPLAY: NONE !</h3>
             <!---->
+            <form action="action.php" method="post">
             <div class="infrastructure">
                 <b>инфраструктура:</b>
-                <form action="action.php" method="post">
                     <input type="checkbox" name="infrastructure" id="pool">
                     <label for="pool">бассейн</label>
                     <input type="checkbox" name="infrastructure" id="parking">
                     <label for="parking">парковка</label>
                     <input type="checkbox" name="infrastructure" id="wi_fi">
                     <label for="wi_fi">wi-fi</label>
-                </form>
             </div>
             <div class="habitation_type">
                 <b>тип жилья:</b>
-                <form method="post" action="action.php">
                     <input type="checkbox" name="habitation_type" id="hotel">
                     <label for="hotel">гостиница</label>
                     <input type="checkbox" name="habitation_type" id="motel">
                     <label for="motel">мотель</label>
                     <input type="checkbox" name="habitation_type" id="apartments">
                     <label for="apartments">апартаменты</label>
-                </form>
             </div>
             <div class="price_show">
                 <b>стоимость в сутки (р):</b>
@@ -65,9 +62,9 @@
                         <div class="price_handler price_handler_max"></div>
                     </div>
                 </div>
-                <a class="show_variants_btn" href="#nogo">ПОКАЗАТЬ</a>
+                <button class="show_variants_btn" href="#nogo">ПОКАЗАТЬ</button>
             </div>
-
+            </form>
         </section>
 
         <section class="results">
