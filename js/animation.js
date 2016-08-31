@@ -9,7 +9,7 @@ var storage_adults = localStorage.getItem("adults");
 var storage_children = localStorage.getItem("children");
 link.addEventListener("click", function(event){
 	event.preventDefault();
-	popup.classList.add("find_hotel_service_show");
+	popup.classList.toggle("find_hotel_service_show");
 	if (storage_adults) {
 		adults.value = storage_adults;
 	}
