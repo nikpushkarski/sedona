@@ -469,7 +469,7 @@ body {
     position: absolute;
     text-decoration: none;
     width: 568px;
-    height: 86px;
+    min-height: 86px;
     background-color: #766357;
     text-align: center;
     line-height: 86px;
@@ -480,6 +480,7 @@ body {
     bottom: 0;
     left: 50%;
     margin-left: -284px;
+    word-wrap: break-word;
 }
 
 .find_hotel_service {
@@ -489,7 +490,7 @@ body {
     padding-right: 55px;
     padding-top: 55px;
     width: 458px;
-    height: 340px;
+    min-height: 340px;
     background: #ffffff;
     bottom: -395px;
     left: 50%;
@@ -540,6 +541,14 @@ body {
     position: relative;
     margin-bottom: 30px;
     padding-top: 5px;
+}
+
+.find_hotel_form label {
+    float: left;
+    display: inline-block;
+    vertical-align: baseline;
+    max-width: 95px;
+    word-wrap: break-word;
 }
 
 .find_hotel_form .calendar_btn {
@@ -620,7 +629,7 @@ input.date:focus,
 }
 
 .adults_input {
-    margin-left: 36px;
+    margin-left: 40px;
 }
 
 .children_input {
@@ -691,7 +700,9 @@ input.date:focus,
     color: #ffffff;
     font-size: 21px;
     margin-top: 55px;
+    margin-bottom: 55px;
     outline: none;
+    word-wrap: break-word;
 }
 
 .find_hotel_btn:hover {
@@ -1023,7 +1034,7 @@ input[type="checkbox"]:checked:disabled + label:before {
     display: inline-block;
     vertical-align: baseline;
     text-decoration: none;
-    background: url("../img/inner_page_sprite.png");
+    background: url("../img/sprite.png");
     margin-left: 12px;
     margin-top: 39px;
 }
@@ -1031,37 +1042,37 @@ input[type="checkbox"]:checked:disabled + label:before {
 .sort_up_down .arrow_up {
     width: 11px;
     height: 10px;
-    background-position: -68px -5px;
+    background-position: -68px -49px;
 }
 
 .sort_up_down .arrow_up:hover {
     width: 11px;
     height: 10px;
-    background-position: -110px -5px;
+    background-position: -110px -49px;
 }
 
 .sort_up_down .arrow_up:active {
     width: 11px;
     height: 10px;
-    background-position: -89px -5px;
+    background-position: -89px -49px;
 }
 
 .sort_up_down .arrow_down {
     width: 11px;
     height: 10px;
-    background-position: -5px -5px;
+    background-position: -5px -49px;
 }
 
 .sort_up_down .arrow_down:hover {
     width: 11px;
     height: 10px;
-    background-position: -47px -5px;
+    background-position: -47px -49px;
 }
 
 .sort_up_down .arrow_down:active {
     width: 11px;
     height: 10px;
-    background-position: -26px -5px;
+    background-position: -26px -49px;
 }
 
 .sort_up_down .arrow_current_down,
@@ -1069,13 +1080,13 @@ input[type="checkbox"]:checked:disabled + label:before {
 .sort_up_down .arrow_current_down:active {
     width: 11px;
     height: 10px;
-    background-position: -26px -5px;
+    background-position: -26px -49px;
 }
 
 .sort_up_down .arrow_current_up {
     width: 11px;
     height: 10px;
-    background-position: -89px -5px;
+    background-position: -89px -49px;
 }
 
 .results .habitation_result {
@@ -1191,10 +1202,10 @@ input[type="checkbox"]:checked:disabled + label:before {
 .stars li {
     display: inline-block;
     vertical-align: baseline;
-    background: url("../img/inner_page_sprite.png");
+    background: url("../img/sprite.png");
     width: 17px;
     height: 17px;
-    background-position: -131px -5px;
+    background-position: -131px -49px;
     margin-left: 3px;
 }
 
