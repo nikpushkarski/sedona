@@ -226,25 +226,25 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    background: url("../img/social_sprite.png") no-repeat;
+    background: url("../img/sprite.png") no-repeat;
 }
 
 .twi_btn:before {
     width: 17px;
     height: 15px;
-    background-position: -25px -5px;
+    background-position: -25px -80px;
 }
 
 .fb_btn:before {
     width: 10px;
-    height: 19px;
-    background-position: -5px -5px;
+    height: 20px;
+    background-position: -6px -80px;
 }
 
 .you_btn:before {
     width: 20px;
     height: 16px;
-    background-position: -52px -5px;
+    background-position: -52px -79px;
 }
 
 .footer_copyright>.container {
@@ -260,15 +260,15 @@ body {
     margin-left: 5px;
     width: 113px;
     height: 40px;
-    background: url("../img/dev_logo.png") no-repeat;
+    background: url("../img/sprite.png") no-repeat -5px -120px;
 }
 
 .dev_logo:hover {
-    background: url("../img/dev_logo_hvr.png") no-repeat;
+    background: url("../img/sprite.png") no-repeat -246px -120px;
 }
 
 .dev_logo:active {
-    background: url("../img/dev_logo_active.png") no-repeat;
+    background: url("../img/sprite.png") no-repeat -127px -120px;
 }
 
 
@@ -381,15 +381,15 @@ body {
 }
 
 .habitation {
-    background: url("../img/habitation.png") no-repeat 162px 60px;
+    background: url("../img/sprite.png") no-repeat -405px 57px;
 }
 
 .food {
-    background: url("../img/food.png") no-repeat 163px 61px;
+    background: url("../img/sprite.png") no-repeat -1323px 58px;
 }
 
 .souvenirs {
-    background: url("../img/souvenirs.png") no-repeat 167px 56px;
+    background: url("../img/sprite.png") no-repeat -868px 54px;
 }
 
 .devil_bridge_photo {
@@ -549,7 +549,7 @@ body {
     top: 7px;
     width: 21px;
     height: 22px;
-    background: url("../img/sprite_form.png") no-repeat;
+    background: url("../img/sprite.png") no-repeat;
     background-position: -238px -13px;
     cursor: pointer;
 }
@@ -641,7 +641,7 @@ input.date:focus,
     height: 38px;
     top: 0;
     left: 0;
-    background: url("../img/sprite_form.png") no-repeat;
+    background: url("../img/sprite.png") no-repeat;
     background-position: 1px 0;
     cursor: pointer;
 }
@@ -654,7 +654,7 @@ input.date:focus,
     height: 38px;
     top: 0;
     right: 0;
-    background: url("../img/sprite_form.png") no-repeat;
+    background: url("../img/sprite.png") no-repeat;
     background-position: -113px -4px;
     cursor: pointer;
 }
@@ -796,7 +796,8 @@ input[type="checkbox"] + label:before {
     display: block;
     width: 22px;
     height: 22px;
-    background: url("../img/checkbox_unchecked.png") no-repeat;
+    background: url("../img/sprite.png") no-repeat;
+    background-position: -236px -47px;
     position:absolute;
     left: 0;
     top:0;
@@ -805,17 +806,20 @@ input[type="checkbox"] + label:before {
 input[type="checkbox"]:checked + label:before {
     width: 26px;
     height: 22px;
-    background: url("../img/checkbox_checked.png") no-repeat;
+    background: url("../img/sprite.png") no-repeat;
+    background-position: -171px -47px;
 }
 
 input[type="checkbox"]:disabled + label:before {
-    background: url("../img/checkbox_unchecked_disabled.png");
+    background: url("../img/sprite.png");
+    background-position: -267px -47px;
 }
 
 input[type="checkbox"]:checked:disabled + label:before {
     width: 26px;
     height: 22px;
-    background: url("../img/checkbox_checked_disabled.png");
+    background: url("../img/sprite.png");
+    background-position: -203px -47px;
 }
 
 .price_show {
