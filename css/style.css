@@ -957,11 +957,11 @@ input[type="checkbox"]:checked:disabled + label:before {
 
 .results {
     padding-top: 1px;
-    height: 537px;
+    min-height: 537px;
 }
 
 .results_sorting {
-    height: 84px;
+    min-height: 84px;
     padding-left: 72px;
     padding-right: 72px;
     border-bottom: 1px solid #e5e5e5;
@@ -969,7 +969,7 @@ input[type="checkbox"]:checked:disabled + label:before {
 
 .results_sorting_left {
     float: left;
-    height: inherit;
+    /*min-height: inherit;*/
 }
 
 .results_sorting_left>h4,
@@ -984,6 +984,7 @@ input[type="checkbox"]:checked:disabled + label:before {
     margin: 0;
     padding: 0;
     margin-left: 36px;
+    max-width: 600px;
 }
 
 .results_sorting_left>h4 {
@@ -1090,17 +1091,18 @@ input[type="checkbox"]:checked:disabled + label:before {
 }
 
 .results .habitation_result {
-    height: 124px;
+    min-height: 94px;
     padding-left: 72px;
     padding-right: 72px;
     border-bottom: 1px solid #e5e5e5;
     padding-top: 26px;
+    padding-bottom: 16px;
 }
 
 .habitation_result_info {
     float: left;
     width: 528px;
-    height: inherit;
+    min-height: inherit;
     font-size: 0;
 }
 
@@ -1110,8 +1112,7 @@ input[type="checkbox"]:checked:disabled + label:before {
 }
 
 .book {
-    float: left;
-    margin-left: 30px;
+    margin-left: 165px;
 }
 
 .book .book_name {
@@ -1138,10 +1139,13 @@ input[type="checkbox"]:checked:disabled + label:before {
     color: #333333;
     display: inline-block;
     vertical-align: baseline;
+    max-width: 116px;
+    word-wrap: break-word;
 }
 
 .book>span:nth-child(2) {
     width: 116px;
+    max-width: 116px;
 }
 
 .book .more_info,
@@ -1155,6 +1159,7 @@ input[type="checkbox"]:checked:disabled + label:before {
     min-height: 27px;
     text-decoration: none;
     margin-top: 7px;
+    word-wrap: break-word;
 }
 
 .book .more_info {
