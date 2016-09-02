@@ -413,7 +413,8 @@ body {
     float: left;
 }
 
-.other_reasons_text>h4 {
+.other_reasons_text>h4,
+.one_third>b {
     margin: 0 auto;
     margin-top: 47px;
     margin-bottom: 24px;
